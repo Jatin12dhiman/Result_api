@@ -1,5 +1,6 @@
 
 import './App.css'
+import CurrecyApi from './CurrecyApi.jsx';
 
 import ResultChecker from "./ResultChecker.jsx";
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <div className="">
   <ResultChecker />
+  <CurrecyApi />
              </div>
     
     </>
